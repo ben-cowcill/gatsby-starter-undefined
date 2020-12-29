@@ -1,0 +1,6 @@
+@import "../styling/variables.css";
+
+.header {
+  background: rebeccapurple;
+  margin-bottom: 1.45rem;
+}

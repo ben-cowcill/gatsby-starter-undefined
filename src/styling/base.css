@@ -1,0 +1,13 @@
+@import './variables.css';
+
+body {
+	font-family: 'Roboto', sans-serif;
+  color: var(--darkColor);
+  position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body * {
+	box-sizing: border-box;
+}

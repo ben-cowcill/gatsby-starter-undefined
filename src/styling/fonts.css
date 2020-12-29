@@ -1,0 +1,34 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3658191, 2018-10-20T16:12:13-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: BrandonGrotesqueWeb-Bold by HVD Fonts
+ * URL: https://www.myfonts.com/fonts/hvdfonts/brandon-grotesque/bold/
+ * Copyright: Copyright (c) 2015 by Hannes von Doehren. All rights reserved.
+ * Licensed pageviews: 10,000
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3658191
+ *
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/37d1cf");
+
+
+@font-face {
+	font-family: 'BrandonGrotesqueWeb-Bold';
+	src: url('../fonts/37D1CF_0_0.eot');
+	src: url('../fonts/37D1CF_0_0.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/37D1CF_0_0.woff2') format('woff2'),
+			url('../fonts/37D1CF_0_0.woff') format('woff'),
+			url('../fonts/37D1CF_0_0.ttf') format('truetype');
+}

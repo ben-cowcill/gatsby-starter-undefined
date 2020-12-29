@@ -1,0 +1,54 @@
+:root {
+  /* ------ Colors ------ */
+  --darkColor: #3d415f;
+  --darkestColor: #191e3a;
+  /* --accentColor: #F7F0EC; */
+  --accentColor: #f8f5f3;
+
+  --highlightColor: #26e8f1;
+
+  --greenHighlightColor: #4feeab;
+  --yellowHighlightColor: #fcf072;
+  --purpleHighlightColor: #fc72e2;
+
+  --textColorDark: #1f1f1f;
+  --textColorLight: #656565;
+  --textColorGreenHighlight: #72D599;
+  --textColorBlueHighlight: #293FDD;
+
+  --textColorLightGrey: #d0d0d0;
+
+  --borderColor: #dbdbdb;
+
+  --articleHighlight: #25B0FF;
+  --buttonColor: #161A29;
+  --pulsePurple: #0E0638;
+
+  /* ------ Font ------ */
+  --brandFont: "BrandonGrotesqueWeb-Bold", Roboto, Arial, sans-serif;
+  --copyFont: Roboto, Arial, sans-serif;
+  --serifFont: Bitter;
+
+  --copyFontLight: 300;
+  --copyFontHeavy: 400;
+
+  --subTitleFontSize: 27px;
+  --bigTitleMobile: 55px;
+  --bigTitle: 72px;
+
+  --fontSizeMini: 12px;
+  --fontSizeSmall: 14px;
+  --fontSizeMedium: 16px;
+  --fontSizeXM: 20px;
+  --fontSizeLarge: 32px;
+  --fontSizeXL: 52px;
+
+  /* ------ Spacing ------ */
+  --spacingSide: 65px;
+  --spacingSideMobile: 40px;
+  --spacingSideMobileSmall: 25px;
+
+  --contentMaxWidth: 75%;
+  --contentMaxWidthPx: 1000px;
+  --contentMaxWidthSmallPx: 900px;
+}
