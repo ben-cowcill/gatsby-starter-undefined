@@ -4,7 +4,7 @@ import React from "react"
 import styles from "./header.module.css"
 
 const Header = ({ siteTitle }) => (
-  <header styles={styles.header}>
+  <header className={styles.header}>
     <div
       style={{
         margin: `0 auto`,
