@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Digital Product Studio for Startups | Undefined | based in London`,
-    description: `Undefined is a digital product studio specialized in helping ambitious startups bring their digital products (web & app) to life through research, design & development. `,
+    title: `Site title`,
+    description: `Site description`,
     author: `@by_undefined`,
   },
   plugins: [
