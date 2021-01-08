@@ -11,13 +11,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `content`,
-        path: `${__dirname}/src/content/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `images`,
         path: `${__dirname}/src/images/`,
       },
@@ -31,21 +24,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-remark-images`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1100,
-              wrapperStyle: "width: 100%;", //add styles to md image wrapper
-            },
-          },
-        ],
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -71,20 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-129016408-1",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        id: "2092345",
-        sv: "6",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: "728384544576603",
+        trackingId: "UA-XXXXXXXXX-X",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
