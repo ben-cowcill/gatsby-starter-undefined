@@ -1,6 +1,11 @@
 @import "../styling/variables.css";
 
 .header {
-  background: rebeccapurple;
-  margin-bottom: 1.45rem;
+  background: grey;
+  
+  > div {
+    max-width: var(--contentMaxWidth);
+    margin: 0 auto;
+    padding: var(--spacingXL) var(--spacingMedium);
+  }
 }
