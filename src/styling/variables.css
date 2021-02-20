@@ -1,54 +1,41 @@
 :root {
   /* ------ Colors ------ */
-  --darkColor: #3d415f;
-  --darkestColor: #191e3a;
-  /* --accentColor: #F7F0EC; */
-  --accentColor: #f8f5f3;
+  --textColorDark: #000;
+  --textColorLight: #979797;
 
-  --highlightColor: #26e8f1;
+  --borderColor: #D7D7D7;
 
-  --greenHighlightColor: #4feeab;
-  --yellowHighlightColor: #fcf072;
-  --purpleHighlightColor: #fc72e2;
-
-  --textColorDark: #1f1f1f;
-  --textColorLight: #656565;
-  --textColorGreenHighlight: #72D599;
-  --textColorBlueHighlight: #293FDD;
-
-  --textColorLightGrey: #d0d0d0;
-
-  --borderColor: #dbdbdb;
-
-  --articleHighlight: #25B0FF;
-  --buttonColor: #161A29;
-  --pulsePurple: #0E0638;
+  --buttonColor: #000;
 
   /* ------ Font ------ */
-  --brandFont: "BrandonGrotesqueWeb-Bold", Roboto, Arial, sans-serif;
-  --copyFont: Roboto, Arial, sans-serif;
-  --serifFont: Bitter;
+  --brandFont: "Roboto", Arial, sans-serif;
+  --copyFont: "Source Sans Pro", Arial, sans-serif;
 
-  --copyFontLight: 300;
-  --copyFontHeavy: 400;
-
-  --subTitleFontSize: 27px;
-  --bigTitleMobile: 55px;
-  --bigTitle: 72px;
+  --copyFontLight: 400;
+  --copyFontHeavy: 600;
 
   --fontSizeMini: 12px;
   --fontSizeSmall: 14px;
   --fontSizeMedium: 16px;
-  --fontSizeXM: 20px;
-  --fontSizeLarge: 32px;
+  --fontSizeXM: 18px;
+  --fontSizeLarge: 40px;
   --fontSizeXL: 52px;
 
-  /* ------ Spacing ------ */
-  --spacingSide: 65px;
-  --spacingSideMobile: 40px;
-  --spacingSideMobileSmall: 25px;
 
-  --contentMaxWidth: 75%;
-  --contentMaxWidthPx: 1000px;
-  --contentMaxWidthSmallPx: 900px;
+  /* ------ Spacing ------ */
+  --spacingMini: 8px;
+  --spacingSmall: 16px;
+  --spacingMedium: 24px;
+  --spacingLarge: 32px;
+  --spacingXL: 40px;
+  --spacingXXL: 48px;
+
+
+  /* ------ Content ------ */
+  --contentMaxWidth: 1200px;
+  --contentMaxWidthSmall: 900px;
+
+
+  /* ------ Misc ------ */
+  --sidebarWidth: 300px;
 }
