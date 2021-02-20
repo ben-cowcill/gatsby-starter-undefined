@@ -9,13 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import "../styling/reset.css"
-import "../styling/fonts.css"
-import "../styling/base.css"
+import "src/styling/reset.css"
+import "src/styling/fonts.css"
+import "src/styling/base.css"
 
-import styles from "./layout.module.css"
+import styles from "src/components/layout.module.css"
 
-import Header from "./header"
+import Header from "src/components/header"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
